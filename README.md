@@ -21,32 +21,32 @@ WINNER: Indicates if the candidate won (1) or lost (0).
 
 # Methodology
 
-Data Preprocessing :
+1.Data Preprocessing :
 Load the dataset using pandas.
 Clean missing and inconsistent values.
 Convert necessary columns into numerical formats for analysis.
 
-Exploratory Data Analysis (EDA) :
+2.Exploratory Data Analysis (EDA) :
 Summary statistics of candidates, assets, and party performances.
 Visualizations using Matplotlib and Seaborn.
 Distribution of assets and liabilities across different states.
 Hypothesis Testing: Bihar Candidates' Assets
 Claim by ADR: The average assets of Bihar candidates in 2019 were higher than in 2014 (5 crores).
 
-Hypotheses :
+3.Hypotheses :
 Null Hypothesis (H0): Avg. assets for a Bihar candidate ≤ 5 crores.
 Alternate Hypothesis (H1): Avg. assets for a Bihar candidate > 5 crores.
 
-Statistical Test :
+4.Statistical Test :
 One-sample t-test using scipy.stats.ttest_1samp().
 Alpha level: 0.05 (5% significance level).
 
-Results & Insights :
+5.Results & Insights :
 Interpretation of the hypothesis test results.
 Political trends and key observations.
 Distribution of assets and liabilities among different parties.
 
-Technologies Used :
+6.Technologies Used :
 Python: Core programming language.
 Pandas & NumPy: Data manipulation and analysis.
 Matplotlib & Seaborn: Data visualization.
